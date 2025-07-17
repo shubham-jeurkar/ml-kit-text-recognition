@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # optional - use expanded license entry instead:
   # s.license    = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Shubham Jeurkar" => "shubham.jeurkar@buzzybrains.com" }
-  s.platforms    = { :ios => "9.0" }
+  s.platforms    = { :ios => "15.1"  }
   s.source       = { :git => "https://github.com/shubham-jeurkar/ml-kit-text-recognition.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,c,cc,cpp,m,mm,swift}"
